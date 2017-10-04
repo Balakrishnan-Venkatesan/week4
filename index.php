@@ -13,4 +13,16 @@ echo "<br><br>replace - with / in date";
 $date = date('Y/m/d', time());
 echo "<br>$date";
 
+echo "<br><br>comparing $date and $tar";
+if(strcmp ($date, $tar) >0) {
+	echo "<br>the future";
+}
+
+elseif(strcmp ($date, $tar) <0) {
+	echo "<br>the past";
+}
+
+else {
+	echo "<br>oops";
+}
 ?>
