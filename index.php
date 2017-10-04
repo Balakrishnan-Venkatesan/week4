@@ -25,4 +25,8 @@ elseif(strcmp ($date, $tar) <0) {
 else {
 	echo "<br>oops";
 }
+
+echo "<br><br>count words in date<br>";
+echo str_word_count($date);
+
 ?>
