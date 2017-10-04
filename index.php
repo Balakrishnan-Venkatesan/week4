@@ -38,3 +38,12 @@ echo ord ($date);
 
 echo "<br><br>return last 2 characters from $date<br>";
 echo substr($date,-2);
+
+echo "<br><br>position of / is at<br>";
+$p= 0;
+while ($p > -1) {
+	$p= strpos($date, "/", $p+1);
+	echo " " .$p. " ";
+}
+
+
