@@ -33,4 +33,8 @@ $string1= "<br><br>length of my string is";
 echo "$string1<br>";
 echo strlen($string1);
 
-?>
+echo "<br><br>first character's  ascii<br>";
+echo ord ($date);
+
+echo "<br><br>return last 2 characters from $date<br>";
+echo substr($date,-2);
