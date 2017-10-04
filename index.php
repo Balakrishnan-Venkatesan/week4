@@ -29,4 +29,8 @@ else {
 echo "<br><br>count words in date<br>";
 echo str_word_count($date);
 
+$string1= "<br><br>length of my string is";
+echo "$string1<br>";
+echo strlen($string1);
+
 ?>
