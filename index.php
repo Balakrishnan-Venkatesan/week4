@@ -46,4 +46,8 @@ while ($p > -1) {
 	echo " " .$p. " ";
 }
 
-
+echo "<br><br>break date into array<br>";
+print_r(explode('/', $date, 3));
+$array= explode('/', $date);
+echo "<br>";
+echo " " .$array[0]. " " .$array[1]. " " .$array[2]. " ";
