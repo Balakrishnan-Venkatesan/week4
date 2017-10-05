@@ -51,3 +51,15 @@ print_r(explode('/', $date, 3));
 $array= explode('/', $date);
 echo "<br>";
 echo " " .$array[0]. " " .$array[1]. " " .$array[2]. " ";
+
+echo "<br><br>leap yr? or not?<br>";
+foreach ($year as $i) {
+	switch(($i%4==0)&&($i%100!=0)||($i%400==0)){
+		case 0: echo "$i false ";
+		break;
+		case 1: echo "$i true ";
+		break;
+	}
+}
+?>
+
